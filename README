@@ -1,0 +1,28 @@
+How to build/run:
+	
+	To build, on your command line type:
+		'make' or 'make mazes'
+
+	To run, type:
+		'./mazes'
+
+	Follow the on screen prompts to complete execution of the software.
+
+
+
+Input File Format:
+
+All input files are ASCII text files.  The first line of the file contains 2 integers, the number of columns in the maze, and the number of rows in the maze.
+
+The rest of the file is used to denote the maze.
+
+Use * to denote walls
+Use # to denote open space
+Use o to indicate the start
+Use e to indicate the end
+
+
+
+Limitations:
+	- mazes can only be 100 columns wide
+	- maze filenames can only be 25 chars long
